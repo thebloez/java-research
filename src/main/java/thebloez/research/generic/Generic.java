@@ -1,11 +1,5 @@
 package thebloez.research.generic;
 
-import thebloez.research.generic.Data;
-import thebloez.research.generic.GenericMethod;
-import thebloez.research.generic.MultipleGeneric;
-
-import java.util.Arrays;
-
 public class Generic {
     public static void main(String[] args) {
         Data<Integer> testInt = new Data<Integer>(1);
