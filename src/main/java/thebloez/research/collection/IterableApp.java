@@ -8,9 +8,9 @@ import java.util.stream.Collectors;
 
 public class IterableApp {
     public static void main(String[] args) {
-        iterable();
-
-        collection();
+//        iterable();
+//
+//        collection();
 
         System.out.println(Arrays.toString(test()));
     }
@@ -27,19 +27,19 @@ public class IterableApp {
         return list.stream().mapToInt(i -> i).toArray();
     }
 
-    public static void iterable(){
-        Iterable<String> strings = List.of("Ryan", "Dewi", "Kanaya");
-
-        for (String name : strings) {
-            System.out.println(name);
-        }
-    }
-
-    public static void collection(){
-        Collection<Integer>  collection = List.of(1,2,3);
-
-        for (var a : collection) {
-            System.out.println(a);
-        }
-    }
+//    public static void iterable(){
+//        Iterable<String> strings = List.of("Ryan", "Dewi", "Kanaya");
+//
+//        for (String name : strings) {
+//            System.out.println(name);
+//        }
+//    }
+//
+//    public static void collection(){
+//        Collection<Integer>  collection = List.of(1,2,3);
+//
+//        for (var a : collection) {
+//            System.out.println(a);
+//        }
+//    }
 }
