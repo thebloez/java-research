@@ -9,9 +9,7 @@ public class ComparableApp {
                 new Person("Ryan","Jakarta"),
                 new Person("Dewi","Kuningan")
         };
-
         Arrays.sort(people);
-
         System.out.println(Arrays.toString(people));
     }
 }
